@@ -7,36 +7,30 @@
 1. Please make sure the url that we share is online
 2. Give meta tag so when we share on our facebook page show image/description about the content. When we share our page, facebook will read that meta tag. Documentation about the meta can be found in http://ogp.me/
 
-<h3> Good Examples of og meta tag: </h3>
+<h3>OpenGraph tags</h3>
+Facebook’s OpenGraph allows you to specify metadata to optimize how your content appears in a user’s timeline. The added benefit of using this data is that by creating an “Edge” in Facebook you can obtain some fantastic data about the users checking out your content via Facebook Insights. If you don’t use Open Graph tags Facebook will default to standard metadata.
 
-<h4> Title </h4>
-A clear title without branding or mentioning the domain itself.
 
-``` <meta property="og:title" content="Workday Sets Price Range for I.P.O." /> ```
-<h4>Site name</h4>
-Provide a site name, e.g. "My Favorite News"
-``` <meta property="og:site_name" content="My Favorite News"/> ```
-<h4>URL</h4>
-A URL with no session id or extraneous parameters. All shares on Facebook will use this as the identifying URL for this article.
-``` <meta property="og:url" content="http://www.example.com/article" /> ```
-<h4>Description</h4>
-A clear description, at least two sentences long.
-``` <meta property="og:description" content="This is a description that we share to other. This is long long description about something." /> ```
 
-<h4>Facebook App ID</h4>
-A Facebook App ID that identifies your website to Facebook. Not mandatory if we dont have it.
-``` <meta property="fb:app_id" content="[FB_APP_ID]" />```
+<h5>og:title</h5>
+This is the title of the piece of content. You should use this as a headline that will appeal to the Facebook audience. It is completely ok to use a different title than the one on the actual site as long as the message is ultimately the same. You have 95 characters to work with.Format:<br/>
+```<meta property=”og:title” content=”iAcquire’s awesome blog”/>```
 
-<h4>Object Type</h4>
-The type of object:
+<h5>og:type</h5>
+This is the type of object your piece of content is. For your purposes it will usually be blog, website or article, but if you want to get fancy Facebook provides a complete list.Format:<br/>
+```<meta property=”og:type” content=”article”/>```
 
-``` <meta property="og:type" content="article" /> ```
-more complete documentation can be found here ```https://developers.facebook.com/docs/reference/opengraph/```
+<h5>og:image</h5>
+This is the image that Facebook will show in the screenshot of the content. Be sure to specify a square image to ensure the best visibility in a user’s timeline. If you don’t specify an image at all you are left to the mercy of the user to pick which image represents your content based on what Facebook can scrape. That is typically not the way to ensure the best first impression.Format:<br/>
+```<meta property=”og:image” content=”http://www.example.com/some-thumbnail.jpg”/>```
 
-<h4>Author and Publisher</h4>
-This article has an author and a publisher:
-``` <meta property="article:author" content="https://www.facebook.com/fareedzakaria" />
-<meta property="article:publisher" content="https://www.facebook.com/cnn" /> ```
+<h5>og:url</h5>
+This is simply the URL of the page (or edge). You should specify this especially if you have duplicate content issues to make sure the value of the edge in Facebook is consolidated into one URL.Format:
+<meta property=”og:url” content=”http://blog.iacquire.com”/>
+
+<h5>og:description</h5>
+This is the description Facebook will show in the screenshot of the piece of content. Just like the standard meta description it should be catchy and contain a call to action, but in this case you have nearly twice the number of characters to work with. Make sure this too speaks to the Facebook audience. You have to 297 characters to make it happen.Format:<br/>
+```<meta property=”og:description” content=”Stop hitting refresh on your ex-girlfriend’s Facebook page? You should check out the iAcquire blog and learn something instead”/>```
 
 
 <h3> Debug tools</h3>
