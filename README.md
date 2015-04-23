@@ -40,13 +40,13 @@ When our page have been shared at least once, facebook will catch our page and s
 
 Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
 
-1. Small Images
+<h5>Small Images</h5>
 
 If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller.
 
 
 We've also redesigned link page posts so that the aspect ratio for images is the same across desktop and mobile News Feed. Try to keep your images as close to 1.91:1 aspect ratio as possible to display the full image in News Feed without any cropping.
 
-2. Minimum Image Size
+<h5>Minimum Image Size<h5>
 
 The minimum image size is 200 x 200 pixels. If you try to use an image smaller than this you will see an error in the URL Debugger.
