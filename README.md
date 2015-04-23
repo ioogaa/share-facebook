@@ -30,11 +30,11 @@ This is simply the URL of the page (or edge). You should specify this especially
 
 <h5>og:description</h5>
 This is the description Facebook will show in the screenshot of the piece of content. Just like the standard meta description it should be catchy and contain a call to action, but in this case you have nearly twice the number of characters to work with. Make sure this too speaks to the Facebook audience. You have to 297 characters to make it happen.Format:<br/>
-```<meta property=”og:description” content=”Stop hitting refresh on your ex-girlfriend’s Facebook page? You should check out the iAcquire blog and learn something instead”/>```
+```<meta property=”og:description” content=”some of description content that we want to show.”/>```
 
 
 <h3> Debug tools</h3>
-When our page have been shared at least once, facebook will catch our page and save the cache so when we reshare our page we will see the page as same as the first time shared even we has make change in our page. To reload the view we can use debuging tools provided by facebook in ``` https://developers.facebook.com/tools/debug/ ```
+When our page have been shared at least once, facebook will catch our page and save the cache so when we reshare our page we will see the page as same as the first time shared even we has make change in our page. To reload the view we can use debuging tools provided by facebook in https://developers.facebook.com/tools/debug/
 
 <h3>Image Sizes</h3>
 
