@@ -37,3 +37,22 @@ more complete documentation can be found here ```https://developers.facebook.com
 This article has an author and a publisher:
 ``` <meta property="article:author" content="https://www.facebook.com/fareedzakaria" />
 <meta property="article:publisher" content="https://www.facebook.com/cnn" /> ```
+
+
+<h3> Debug tools</h3>
+When our page have been shared at least once, facebook will catch our page and save the cache so when we reshare our page we will see the page as same as the first time shared even we has make change in our page. To reload the view we can use debuging tools provided by facebook in ``` https://developers.facebook.com/tools/debug/ ```
+
+<h3>Image Sizes</h3>
+
+Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
+
+<h4>Small Images</h4>
+
+If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller.
+
+
+We've also redesigned link page posts so that the aspect ratio for images is the same across desktop and mobile News Feed. Try to keep your images as close to 1.91:1 aspect ratio as possible to display the full image in News Feed without any cropping.
+
+<h4>Minimum Image Size</h4>
+
+The minimum image size is 200 x 200 pixels. If you try to use an image smaller than this you will see an error in the URL Debugger.
