@@ -26,7 +26,7 @@ This is the image that Facebook will show in the screenshot of the content. Be s
 
 <h5>og:url</h5>
 This is simply the URL of the page (or edge). You should specify this especially if you have duplicate content issues to make sure the value of the edge in Facebook is consolidated into one URL.Format:
-<meta property=”og:url” content=”http://blog.iacquire.com”/>
+```<meta property=”og:url” content=”http://example.com/article-we-share”/>```
 
 <h5>og:description</h5>
 This is the description Facebook will show in the screenshot of the piece of content. Just like the standard meta description it should be catchy and contain a call to action, but in this case you have nearly twice the number of characters to work with. Make sure this too speaks to the Facebook audience. You have to 297 characters to make it happen.Format:<br/>
@@ -40,13 +40,13 @@ When our page have been shared at least once, facebook will catch our page and s
 
 Use images that are at least 1200 x 630 pixels for the best display on high resolution devices. At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
 
-<h4>Small Images</h4>
+1. Small Images
 
 If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller.
 
 
 We've also redesigned link page posts so that the aspect ratio for images is the same across desktop and mobile News Feed. Try to keep your images as close to 1.91:1 aspect ratio as possible to display the full image in News Feed without any cropping.
 
-<h4>Minimum Image Size</h4>
+2. Minimum Image Size
 
 The minimum image size is 200 x 200 pixels. If you try to use an image smaller than this you will see an error in the URL Debugger.
